@@ -16,13 +16,13 @@ import android.util.Log;
 
 import java.util.Date;
 
-public class MyCordovaPlugin extends CordovaPlugin {
-  private static final String TAG = "MyCordovaPlugin";
+public class SwiftyCam extends CordovaPlugin {
+  private static final String TAG = "SwiftyCam";
 
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
 
-    Log.d(TAG, "Initializing MyCordovaPlugin");
+    Log.d(TAG, "Initializing SwiftyCam");
   }
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
